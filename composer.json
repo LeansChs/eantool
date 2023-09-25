@@ -1,0 +1,30 @@
+{
+  "name": "eantool/net",
+  "description": "net help",
+  "type": "library",
+  "license": "mit",
+  "autoload": {
+    "psr-4": {
+      "Eantool\\Net\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "leans"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.0",
+    "lfphp/logger": "~1.0",
+    "ext-json": "*",
+    "ext-pdo": "*",
+    "php": ">=7.2",
+    "ext-mbstring": "*"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
